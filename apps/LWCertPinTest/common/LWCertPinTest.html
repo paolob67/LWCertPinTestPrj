@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>LWCertPinTest</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<link rel="shortcut icon" href="images/favicon.png">
+    		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    		<link rel="stylesheet" href="css/LWCertPinTest.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    	</head>
+    	<body id="content" style="display: none;">
+    		<!--application UI goes here-->
+    		<div id="AppBody">
+			<div id="header">
+				<h1>Certificate Pinning Test</h1>
+			</div>
+			
+			<div id="wrapper">
+				<input type="text" value="hostname" id="hostname" />
+				<input type="button" value="Check Certificate" onclick="checkCert()" />
+			</div>
+			
+		</div>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/LWCertPinTest.js"></script>
+    		<script src="js/messages.js"></script>
+    	</body>
+</html>
